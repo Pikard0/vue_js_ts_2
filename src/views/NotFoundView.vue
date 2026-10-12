@@ -1,0 +1,1 @@
+<template><section class="narrow center"><p class="eyebrow">ERROR 404</p><h1>Сторінку не знайдено</h1><p>Можливо, адресу було введено неправильно.</p><RouterLink class="button" to="/">На головну</RouterLink></section></template>

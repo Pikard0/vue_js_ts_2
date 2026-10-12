@@ -1,0 +1,1 @@
+import {UserService} from './user.service'; import {AuthService} from './auth.service'; export class ServiceProvider{private static user?:UserService;private static auth?:AuthService;static get users(){return this.user??=new UserService()}static get authService(){return this.auth??=new AuthService()}}

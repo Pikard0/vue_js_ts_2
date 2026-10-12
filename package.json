@@ -1,0 +1,9 @@
+{
+  "name": "vue-lottery-app",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": { "dev": "vite", "build": "vue-tsc -b && vite build", "preview": "vite preview", "lint": "eslint . --ext .ts,.vue" },
+  "dependencies": { "@vitejs/plugin-vue": "latest", "@vueuse/core": "latest", "pinia": "latest", "vite": "latest", "vue": "latest", "vue-router": "latest", "vee-validate": "latest", "yup": "latest" },
+  "devDependencies": { "@types/node": "latest", "eslint": "latest", "eslint-plugin-vue": "latest", "sass": "latest", "typescript": "latest", "vue-tsc": "latest" }
+}

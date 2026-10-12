@@ -1,0 +1,2 @@
+import {http} from '@/api/http-client'; import type {AuthResponse} from '@/types/user'
+export class AuthService{login(username:string,password:string){return http<AuthResponse>('/auth/login',{method:'POST',body:JSON.stringify({username,password,expiresInMins:30})})} me(){return http<AuthResponse>('/auth/me')} refresh(refreshToken:string){return http<{accessToken:string}>('/auth/refresh',{method:'POST',body:JSON.stringify({refreshToken,expiresInMins:30})})}}
